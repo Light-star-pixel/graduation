@@ -1,7 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  overflow: hidden;
+}
+
 canvas {
-	display: block;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .block-audio {
-	display: none;
+  display: none;
 }
